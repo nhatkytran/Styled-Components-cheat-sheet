@@ -7,9 +7,7 @@ const StyledDiv = styled.div``;
 
 # Using props
 
-'''js
-<StyledDiv variant=”red”>Hello World</StyledDiv>
-'''
+    <StyledDiv variant=”red”>Hello World</StyledDiv>
 
 ///
 
