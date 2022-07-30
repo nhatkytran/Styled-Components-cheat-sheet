@@ -19,10 +19,12 @@ const SuperStyledDiv = styled(SyledDiv)``
 
 => Polymorphic props
 
-<SuperStyledDiv></SuperStyledDiv>
+    <SuperStyledDiv></SuperStyledDiv>
+
 => SuperStyledDiv inherits from StyledDiv, so SuperStyledDiv is a “div element”
 => Change SuperStyledDiv to a “a element” with “as props”
-<SuperStyledDiv as=”a”></SuperStyledDiv>
+
+    <SuperStyledDiv as=”a”></SuperStyledDiv>
 
 # Pseudo classes
 
@@ -67,9 +69,9 @@ text: “#000”,
 }
 }
 
-<ThemeProvider theme={theme}>
-	<App />
-</ThemeProvider>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
 
 ///
 
@@ -83,7 +85,7 @@ const GobalStyle = createGlobalStyle` button {}`;
 
 ///
 
-<ThemeProvider>
-  <GlobalStyle />
-  <App />
-</ThemeProvider>
+    <ThemeProvider>
+      <GlobalStyle />
+      <App />
+    </ThemeProvider>
